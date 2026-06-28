@@ -1,0 +1,6 @@
+{
+  "name": "NeoWalls",
+  "description": "A premium offline-first Material 3 wallpaper app featuring thousands of high-res backgrounds, an AI wallpaper generator, a custom image editor, and a powerful admin control center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

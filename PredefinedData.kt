@@ -1,0 +1,288 @@
+package com.example.data
+
+import com.example.data.model.Category
+import com.example.data.model.Wallpaper
+
+object PredefinedData {
+    val categories = listOf(
+        Category("amoled", "AMOLED", "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600"),
+        Category("minimal", "Minimal", "https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=600"),
+        Category("4k", "4K Ultra HD", "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=600"),
+        Category("nature", "Nature", "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=600"),
+        Category("space", "Space & Galaxy", "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?q=80&w=600"),
+        Category("cars", "Cars & Supercars", "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=600"),
+        Category("cyberpunk", "Cyberpunk", "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=600"),
+        Category("neon", "Neon", "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=600"),
+        Category("animals", "Animals", "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=600"),
+        Category("abstract", "Abstract", "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=600")
+    )
+
+    val wallpapers = listOf(
+        // AMOLED
+        Wallpaper(
+            id = "wp_amoled_1",
+            title = "Midnight Marble Oscillation",
+            category = "AMOLED",
+            imageUrl = "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "1.8 MB",
+            author = "Vadim Sherbakov",
+            colorHex = "#0C0C0E",
+            isFeatured = true,
+            isTrending = true,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 100000,
+            downloadCount = 1250,
+            viewCount = 4500
+        ),
+        Wallpaper(
+            id = "wp_amoled_2",
+            title = "Golden Fracture on Dark Silk",
+            category = "AMOLED",
+            imageUrl = "https://images.unsplash.com/photo-1502691876148-a84978e59fa8?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "2.4 MB",
+            author = "NeoWalls Studio",
+            colorHex = "#110D0A",
+            isFeatured = false,
+            isTrending = true,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 200000,
+            downloadCount = 980,
+            viewCount = 3120
+        ),
+        // Minimal
+        Wallpaper(
+            id = "wp_min_1",
+            title = "Serene Velvet Chair Geometry",
+            category = "Minimal",
+            imageUrl = "https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=1080",
+            resolution = "1920x1080",
+            size = "1.1 MB",
+            author = "Sven Brandsma",
+            colorHex = "#D3CBC7",
+            isFeatured = true,
+            isTrending = false,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 300000,
+            downloadCount = 670,
+            viewCount = 2100
+        ),
+        Wallpaper(
+            id = "wp_min_2",
+            title = "Linear Shadow and Pure Space",
+            category = "Minimal",
+            imageUrl = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "1.9 MB",
+            author = "Arch-Aesthetic",
+            colorHex = "#EFEFEF",
+            isFeatured = false,
+            isTrending = false,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 400000,
+            downloadCount = 520,
+            viewCount = 1450
+        ),
+        // 4K
+        Wallpaper(
+            id = "wp_4k_1",
+            title = "Aesthetic Floral Textures",
+            category = "4K Ultra HD",
+            imageUrl = "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=1080",
+            resolution = "4096x2160",
+            size = "4.2 MB",
+            author = "Evie S.",
+            colorHex = "#DF926C",
+            isFeatured = true,
+            isTrending = true,
+            isRecommended = false,
+            publishDate = System.currentTimeMillis() - 500000,
+            downloadCount = 2560,
+            viewCount = 8900
+        ),
+        Wallpaper(
+            id = "wp_4k_2",
+            title = "Golden Hour Summit Radiance",
+            category = "4K Ultra HD",
+            imageUrl = "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "3.8 MB",
+            author = "Kal Visuals",
+            colorHex = "#C87C49",
+            isFeatured = true,
+            isTrending = true,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 600000,
+            downloadCount = 4320,
+            viewCount = 12500
+        ),
+        // Nature
+        Wallpaper(
+            id = "wp_nat_1",
+            title = "Majestic Morning Peaks",
+            category = "Nature",
+            imageUrl = "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "2.9 MB",
+            author = "John Doe",
+            colorHex = "#4A5D4E",
+            isFeatured = false,
+            isTrending = true,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 700000,
+            downloadCount = 1840,
+            viewCount = 5400
+        ),
+        Wallpaper(
+            id = "wp_nat_2",
+            title = "Ocean Wave Ripple",
+            category = "Nature",
+            imageUrl = "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1080",
+            resolution = "1920x1080",
+            size = "1.5 MB",
+            author = "Jane Smith",
+            colorHex = "#234F75",
+            isFeatured = true,
+            isTrending = false,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 800000,
+            downloadCount = 1110,
+            viewCount = 3980
+        ),
+        // Space
+        Wallpaper(
+            id = "wp_space_1",
+            title = "Infinite Celestial Dust",
+            category = "Space & Galaxy",
+            imageUrl = "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "3.1 MB",
+            author = "NASA Hub",
+            colorHex = "#1D1630",
+            isFeatured = true,
+            isTrending = true,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 900000,
+            downloadCount = 3120,
+            viewCount = 9800
+        ),
+        Wallpaper(
+            id = "wp_space_2",
+            title = "Starry Milkyway Silhouette",
+            category = "Space & Galaxy",
+            imageUrl = "https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=1080",
+            resolution = "1920x1080",
+            size = "2.2 MB",
+            author = "S. Bailey",
+            colorHex = "#131326",
+            isFeatured = false,
+            isTrending = false,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 1000000,
+            downloadCount = 1450,
+            viewCount = 4210
+        ),
+        // Cars
+        Wallpaper(
+            id = "wp_car_1",
+            title = "Aesthetic Porsche 911 Tail",
+            category = "Cars & Supercars",
+            imageUrl = "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "2.6 MB",
+            author = "Campbell",
+            colorHex = "#484E53",
+            isFeatured = true,
+            isTrending = true,
+            isRecommended = false,
+            publishDate = System.currentTimeMillis() - 1100000,
+            downloadCount = 2890,
+            viewCount = 7600
+        ),
+        Wallpaper(
+            id = "wp_car_2",
+            title = "Sleek Yellow Sportscar Motion",
+            category = "Cars & Supercars",
+            imageUrl = "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1080",
+            resolution = "1920x1080",
+            size = "1.7 MB",
+            author = "NeoWalls Studio",
+            colorHex = "#E1B007",
+            isFeatured = false,
+            isTrending = true,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 1200000,
+            downloadCount = 1750,
+            viewCount = 5200
+        ),
+        // Cyberpunk
+        Wallpaper(
+            id = "wp_cp_1",
+            title = "Neo-Tokyo Retrowave Room",
+            category = "Cyberpunk",
+            imageUrl = "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "3.3 MB",
+            author = "A. Cyber",
+            colorHex = "#661E34",
+            isFeatured = true,
+            isTrending = true,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 1300000,
+            downloadCount = 3890,
+            viewCount = 11400
+        ),
+        // Neon
+        Wallpaper(
+            id = "wp_neon_1",
+            title = "Fluorescent Abstract Light Tubes",
+            category = "Neon",
+            imageUrl = "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "2.1 MB",
+            author = "Alex W.",
+            colorHex = "#E8216A",
+            isFeatured = false,
+            isTrending = true,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 1400000,
+            downloadCount = 2100,
+            viewCount = 6500
+        ),
+        // Animals
+        Wallpaper(
+            id = "wp_anim_1",
+            title = "Inquisitive Golden Tabby Cat",
+            category = "Animals",
+            imageUrl = "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=1080",
+            resolution = "1920x1080",
+            size = "1.3 MB",
+            author = "Yaroslav S.",
+            colorHex = "#E7AB78",
+            isFeatured = false,
+            isTrending = false,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 1500000,
+            downloadCount = 1590,
+            viewCount = 4900
+        ),
+        // Abstract
+        Wallpaper(
+            id = "wp_abs_1",
+            title = "Vibrant Liquid Paint Currents",
+            category = "Abstract",
+            imageUrl = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1080",
+            resolution = "3840x2160",
+            size = "3.5 MB",
+            author = "Joel F.",
+            colorHex = "#1D3EA3",
+            isFeatured = true,
+            isTrending = true,
+            isRecommended = true,
+            publishDate = System.currentTimeMillis() - 1600000,
+            downloadCount = 4120,
+            viewCount = 13800
+        )
+    )
+}
